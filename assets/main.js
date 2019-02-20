@@ -111,7 +111,7 @@ class TrackList {
     let output = ""
 
     // Setting up data for our view
-    const header = "<h1>My Tracks</h1>"
+    const header = `<h1>My Tracks</h1>
     // template methode accepts data to view and returns html string
     const template = this.viewData
       ? this.template(this.viewData)
@@ -125,8 +125,6 @@ class TrackList {
   }
   doOnSearch() {
     let search = document.querySelector("#search-input").value
-
-    //
     const url = `https://dci-fbw12-search-itunes.now.sh/?term=${search}`
     const req = new XMLHttpRequest()
     req.open("GET", url, true)

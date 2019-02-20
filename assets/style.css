@@ -20,8 +20,16 @@ body {
   margin: 0px;
   padding: 0px;
 }
+select,
+option,
+input,
+button {
+  padding: 5px;
+}
 .mainWrapper {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
   position: absolute;
   top: 0px;
   margin: 20px;
@@ -91,4 +99,7 @@ img {
   -webkit-box-shadow: 12px 15px 15px 0px rgba(112, 66, 20, 1);
   -moz-box-shadow: 12px 15px 15px 0px rgba(112, 66, 20, 1);
   box-shadow: 12px 15px 15px 0px rgba(112, 66, 20, 1);
+}
+.alterContent {
+  display: flex;
 }

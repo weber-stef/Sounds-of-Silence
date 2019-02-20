@@ -17,21 +17,23 @@
   <body>
     <div class="darkenBg">&nbsp;</div>
     <div class="mainWrapper">
-      <select name="sortMethodSelector">
-        <option value="">Sort by</option>
-        <option value="PriceAscending">Price Ascending</option>
-        <option value="PriceDescending">Price Descending</option>
-        <option value="ArtistAscending">Arstist A-Z</option>
-        <option value="ArtistDescending">Arstist z-A</option>
-        <!-- <option value="LengthAscending">Time</option> -->
-      </select>
-      <!-- <input type="submit" value="Sort tracks" /> -->
-      <input type="text" id="search-input" placeholder="Search in database" />
-      <input type="text" id="filter-input" placeholder="Search Artist" />
-      <label><i class="fas fa-search"></i></label>
-      <button id="searchNow">
-        click to search
-      </button>
+      <div id="alterContent">
+        <select name="sortMethodSelector">
+          <option value="">Sort by</option>
+          <option value="PriceAscending">Price Ascending</option>
+          <option value="PriceDescending">Price Descending</option>
+          <option value="ArtistAscending">Arstist A-Z</option>
+          <option value="ArtistDescending">Arstist z-A</option>
+          <!-- <option value="LengthAscending">Time</option> -->
+        </select>
+        <!-- <input type="submit" value="Sort tracks" /> -->
+        <input type="text" id="search-input" placeholder="Search in database" />
+        <input type="text" id="filter-input" placeholder="Search Artist" />
+        <label><i class="fas fa-search"></i></label>
+        <button id="searchNow">
+          click to search
+        </button>
+      </div>
 
       <div id="tracks"></div>
       <!-- <script src="./assets/music.js"></script> -->
