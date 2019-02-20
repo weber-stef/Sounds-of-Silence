@@ -131,7 +131,7 @@ class TrackList {
     output += header;
     output += "<p>Data from iTunes</p>";
     output +=
-      "<div class=\"row th\"><div>Cover</div><div>Preview</div><div>Artist</div><div>Sontitle</div><div id='price'>Price</div></div></div > ";
+      "<div class=\"row th\"><div>Cover</div><div>Preview</div><div>Artist</div><div>Songtitle</div><div id='price'>Price</div></div></div > ";
     output += template;
     // Assinging view in to innerHTML of our domElement form the constructor
     this.container.innerHTML = output;
