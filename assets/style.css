@@ -8,6 +8,8 @@ body {
   background-color: whitesmoke;
   background-image: url(img/1200-vinyl-invertetd.png);
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   background-attachment: fixed;
   font-family: "PT Sans Narrow", sans-serif;
   font-family: "Felipa", cursive;
